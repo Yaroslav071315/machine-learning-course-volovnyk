@@ -1,0 +1,2 @@
+selection_rule,minimum_cv_candidate,minimum_cv_rmse,minimum_cv_se,one_se_limit,selected_model,test_rmse,test_r2
+Minimum CV RMSE + 1-SE simplicity rule,Polynomial LinearRegression,0.2682216610038822,0.0203780406067873,0.2885997016106695,Polynomial LinearRegression,0.3228,0.2717
