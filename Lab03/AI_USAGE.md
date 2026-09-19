@@ -36,3 +36,28 @@ https://archive.ics.uci.edu/dataset/166/hill+valley
 
 **Відповідальність:**
 Увесь згенерований код був перевірений мною на відповідність технічному завданню. Я повністю розумію логіку роботи `StandardScaler`, `Pipeline`, алгоритмів SVM та KNN, реалізованих у цьому проєкті, і несу відповідальність за фінальний результат роботи.
+
+# ML Lab: Geometric Experiment, Scaling Study & Metric Classifiers
+
+## Опис проєкту
+Цей репозиторій містить виконання лабораторної/практичної роботи з машинного навчання, яка охоплює:
+1. **Контрольний геометричний експеримент**: Візуалізація та аналіз впливу масштабування ознак на синтетичному датасеті `make_moons` для KNN, Linear SVM та RBF SVM.
+2. **Підготовка даних**: Побудова препроцесингових пайплайнів (`Pipeline`, `ColumnTransformer`) із застосуванням `StandardScaler`, `MinMaxScaler` та `OneHotEncoder`.
+3. **Дослідження масштабування**: Порівняльний аналіз моделей без scaler, зі `StandardScaler` та з `MinMaxScaler` на основі 5-fold cross-validation.
+4. **Метричні класифікатори**: Налаштування та оцінка `NearestCentroid` та `KNeighborsClassifier` за сіткою гіперпараметрів ($k \in \{1, 3, 5, 7, 11\}$, $p \in \{1, 2\}$, `weights \in {'uniform', 'distance'}`).
+
+## Структура файлів
+* `notebook.ipynb` — Jupyter Notebook із повним кодом, графіками та аналітичними поясненнями.
+* `AI_USAGE.md` — формальна декларація про використання інструментів ШІ.
+* `README.md` — інструкція та опис проєкту.
+
+## Вимоги до середовища
+* Python 3.9+
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `scikit-learn` >= 1.2
+
+Встановлення залежностей:
+```bash
+pip install numpy pandas matplotlib scikit-learn

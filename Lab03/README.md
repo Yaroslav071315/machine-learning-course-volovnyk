@@ -102,3 +102,17 @@ Graham, L. & Oppacher, F. (2008). *Hill-Valley*. UCI Machine Learning Repository
 2. Встановіть необхідні залежності: `pip install numpy pandas matplotlib scikit-learn`.
 3. Відкрийте `notebook.ipynb` за допомогою Jupyter Notebook або Jupyter Lab.
 4. У розділі "Підготовка індивідуальних даних" за потреби вкажіть шлях до власного датасету у змінній `url_or_path`.
+
+# ML Lab: Geometric Experiment, Scaling Study & Metric Classifiers
+
+## Опис проєкту
+Цей репозиторій містить виконання лабораторної/практичної роботи з машинного навчання, яка охоплює:
+1. **Контрольний геометричний експеримент**: Візуалізація та аналіз впливу масштабування ознак на синтетичному датасеті `make_moons` для KNN, Linear SVM та RBF SVM.
+2. **Підготовка даних**: Побудова препроцесингових пайплайнів (`Pipeline`, `ColumnTransformer`) із застосуванням `StandardScaler`, `MinMaxScaler` та `OneHotEncoder`.
+3. **Дослідження масштабування**: Порівняльний аналіз моделей без scaler, зі `StandardScaler` та з `MinMaxScaler` на основі 5-fold cross-validation.
+4. **Метричні класифікатори**: Налаштування та оцінка `NearestCentroid` та `KNeighborsClassifier` за сіткою гіперпараметрів ($k \in \{1, 3, 5, 7, 11\}$, $p \in \{1, 2\}$, `weights \in {'uniform', 'distance'}`).
+
+
+Встановлення залежностей:
+```bash
+pip install numpy pandas matplotlib scikit-learn
