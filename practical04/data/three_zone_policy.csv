@@ -1,0 +1,4 @@
+zone,n_objects,share,mean_score,actual_positive_rate_OOF,load_per_1000
+A. auto-negative,49,0.1012,0.2738,0.0408,101.2
+B. manual,241,0.4979,0.4979,0.4232,497.9
+C. auto-positive,194,0.4008,0.5497,0.701,400.8
