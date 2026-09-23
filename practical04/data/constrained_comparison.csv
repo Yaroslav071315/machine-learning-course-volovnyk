@@ -1,0 +1,4 @@
+policy,threshold,FP,FN,precision,recall,q_t,actions_per_1000,cost_work
+Baseline (t=0.5),0.5,130,30,0.6176,0.875,0.7025,702.5,430.0
+Unconstrained min C(t),0.4928,167,2,0.5877,0.9917,0.8368,836.8,187.0
+Constrained q(t)<=15%,0.5228,2,180,0.9677,0.25,0.1281,128.1,1802.0
