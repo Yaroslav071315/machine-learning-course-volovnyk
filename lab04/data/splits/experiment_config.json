@@ -1,0 +1,7 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "primary_metric": "macro_f1",
+  "data_path": "Hill_Valley_without_noise_Training.data"
+}
