@@ -1093,5 +1093,47 @@
         "MDI_rank": 88
       }
     ]
-  }
+  },
+  "final_model": "RF",
+  "final_params": {
+    "n_estimators": 100.0,
+    "max_depth": NaN,
+    "max_features": "sqrt",
+    "max_iter": NaN,
+    "learning_rate": NaN,
+    "max_leaf_nodes": NaN
+  },
+  "engineering": [
+    {
+      "model": "Tree",
+      "fit_median_s": 0.0891643000068143,
+      "fit_std_s": 0.000558492436153814,
+      "pred_median_ms": 1.884699915535748,
+      "pred_per_obj_us": 3.769399831071496,
+      "size_mb": 0.01,
+      "structure": 101,
+      "struct_type": "nodes"
+    },
+    {
+      "model": "RF",
+      "fit_median_s": 0.5707304000388831,
+      "fit_std_s": 0.010000592309755666,
+      "pred_median_ms": 20.98679996561259,
+      "pred_per_obj_us": 41.97359993122518,
+      "size_mb": 1.41,
+      "structure": "100 × 17976",
+      "struct_type": "trees × nodes"
+    },
+    {
+      "model": "HistGB",
+      "fit_median_s": 0.549179199966602,
+      "fit_std_s": 0.004783506535194582,
+      "pred_median_ms": 14.480100013315678,
+      "pred_per_obj_us": 28.960200026631355,
+      "size_mb": 0.422,
+      "structure": 300,
+      "struct_type": "boosting iterations"
+    }
+  ],
+  "decision_rationale": "Обрано RF: за одинакових folds і 10 seeds має найвищий q_mean=0.5553 за найменшого q_std=0.0123. Розбіжності з альтернативою — на рівні шуму seed. Дерево відкинуто через великий gap і вищу нестійкість прогнозів."
 }

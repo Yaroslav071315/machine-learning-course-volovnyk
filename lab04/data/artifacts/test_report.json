@@ -1,0 +1,17 @@
+{
+  "final_model": "RF",
+  "final_params": {
+    "n_estimators": 100,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null
+  },
+  "test_metrics": {
+    "macro_f1": 0.5655445810656454,
+    "balanced_acc": 0.5655737704918032,
+    "accuracy": 0.5655737704918032
+  },
+  "cv_q_mean": 0.5552652947843557,
+  "n_test_errors": 53,
+  "n_test_total": 122
+}
