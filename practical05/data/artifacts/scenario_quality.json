@@ -1,0 +1,32 @@
+{
+  "scenario_name": "quality_first",
+  "config_version": "1.0",
+  "description": "Пріоритет якості та інтерпретованості",
+  "constraints": {
+    "accuracy_min": 0.85,
+    "roc_auc_min": 0.9,
+    "p95_predict_ms_max": 200.0,
+    "artifact_size_mb_max": 200.0
+  },
+  "criteria": {
+    "roc_auc": {
+      "direction": "maximize",
+      "weight": 0.6,
+      "min_ref": 0.5,
+      "max_ref": 1.0
+    },
+    "accuracy": {
+      "direction": "maximize",
+      "weight": 0.3,
+      "min_ref": 0.5,
+      "max_ref": 1.0
+    },
+    "p95_predict_ms": {
+      "direction": "minimize",
+      "weight": 0.1,
+      "min_ref": 0.5,
+      "max_ref": 200.0
+    }
+  },
+  "refs_source": "min_ref/max_ref успадковано з попереднього експерименту та SLA"
+}

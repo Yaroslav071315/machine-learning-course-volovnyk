@@ -1,0 +1,30 @@
+{
+  "scenario_name": "fast_inference",
+  "config_version": "1.0",
+  "winner": null,
+  "winner_score": null,
+  "backup": null,
+  "rejected": [
+    {
+      "model": "dummy",
+      "violations": "Відсутня метрика: accuracy; Відсутня метрика: roc_auc"
+    },
+    {
+      "model": "logreg",
+      "violations": "Відсутня метрика: accuracy; Відсутня метрика: roc_auc"
+    },
+    {
+      "model": "knn",
+      "violations": "Відсутня метрика: accuracy; Відсутня метрика: roc_auc"
+    },
+    {
+      "model": "svc_rbf",
+      "violations": "Відсутня метрика: accuracy; Відсутня метрика: roc_auc"
+    },
+    {
+      "model": "rf",
+      "violations": "Відсутня метрика: accuracy; Відсутня метрика: roc_auc; p95_predict_ms=198.0494 > 50.0"
+    }
+  ],
+  "allowed_models": []
+}
