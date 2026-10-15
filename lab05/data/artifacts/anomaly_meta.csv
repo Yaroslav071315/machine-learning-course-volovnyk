@@ -1,0 +1,31 @@
+id,type,feature,features
+S0042,spike,6.0,
+S0045,shift,9.0,
+S0067,noise,,"[4, 8, 2]"
+S0084,spike,3.0,
+S0086,shift,6.0,
+S0217,noise,,"[2, 9]"
+S0220,spike,6.0,
+S0247,shift,7.0,
+S0262,noise,,"[3, 8, 7]"
+S0271,spike,2.0,
+S0275,shift,8.0,
+S0285,noise,,"[7, 9]"
+S0331,spike,6.0,
+S0336,shift,5.0,
+S0354,noise,,"[5, 4]"
+S0378,spike,1.0,
+S0383,shift,6.0,
+S0385,noise,,"[5, 7]"
+S0395,spike,7.0,
+S0416,shift,0.0,
+S0428,noise,,"[2, 9, 6]"
+S0448,spike,4.0,
+S0458,shift,0.0,
+S0475,noise,,"[7, 0]"
+S0493,spike,2.0,
+S0498,shift,1.0,
+S0504,noise,,"[9, 4, 7]"
+S0528,spike,4.0,
+S0558,shift,1.0,
+S0579,noise,,"[6, 7]"

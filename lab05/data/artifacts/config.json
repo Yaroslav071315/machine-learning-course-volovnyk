@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "n_samples": 600,
+  "n_features": 10,
+  "n_classes": 3,
+  "test_frac": 0.25,
+  "pca_thresholds": [
+    0.8,
+    0.9,
+    0.95
+  ],
+  "k_grid": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "n_seeds": 5,
+  "if_params": {
+    "n_estimators": 200,
+    "contamination": 0.05
+  },
+  "threshold_quantile": 0.95
+}
